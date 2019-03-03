@@ -71,9 +71,7 @@ h3 {
 
 hr { 
 	width: 100%;
-	height: 1px;
 	margin: 2rem 0px;
-	
 }
 
 .mainContainer {
@@ -94,14 +92,13 @@ nav {
 
 nav a{
 	display: flex;
-	width: 13%;
+	width: 6%;
 	height: 40px;
-	margin: 40px 20px 40px 0px;
+	margin: 40px 65px 40px 0px;
 	align-items: center;
 	justify-content: center;
 	color: lightgrey;
-	text-decoration: none;
-	justify-content: space-between;
+    text-decoration: none;
 }
 
 .logo {
@@ -166,80 +163,7 @@ span {
 
 .copyright {
 	width: 25rem;
-	margin: 5rem 38%;
-}
+	
+	margin: 2rem 38%;
 
-.serviceIntro {
-	width: 100%;
-	height: 5%;
-	margin: 20px 0px 0px 0px;
-}
-
-.serviceIntro h1 {
-	font-size: 24px;
-}
-
-.servicesContainer {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-}
-
-.service {
-	 border: 1px solid black;
-	 background-color: lightgrey;
-	 height: 300px;
-	 width: 48%;
-	 margin: 10px 0px;
-	 padding: 20px;
-	 line-height: 25px;
-	 flex-wrap: wrap;
-}
-
-.Button {
-	text-decoration: none;
-	font-size: 16px;
-	border-radius: 5px;
-    width: 165px;
-    padding: 5px;
-    text-align: center;
-    color: black;
-    display: inline-block;
-	border: 1px solid black;
-	font-family: 'Titillium Web', sans-serif;
-	margin: 20px 0px;
-	background-color: white;
-}
-
-.Button:hover {
-	background-color: black;
-	color:white;
-}
-
-.serviceFactsContainer{
-	display: flex;
-	width: 100%;
-	height: 25%;
-	flex-flow: row wrap;
-	justify-content: space-between;
-
-}
-
-.serviceFacts {
-	display: flex;
-	flex-wrap: wrap;
-	width: 48%;
-	height: 25%;
-}
-
-ul {
-	list-style-type: square;
-	line-height: 40px;
-	margin: 10px 0px;
-	list-style-position: inside;
-}
-
-.services-info-img {
-	height: 75%;
-	width: 50%;
 }
